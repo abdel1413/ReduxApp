@@ -1,5 +1,6 @@
 
 import './App.css'
+ import './index.scss'
 import { Counter } from './components/Counter'
 import { Parent } from './components/propsDrilling/Parent'
 import { CounterSlice } from './components/redux/counterSlice'

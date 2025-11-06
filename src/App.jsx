@@ -1,11 +1,12 @@
 
-import './App.css'
+// import './App.css'
  import './index.scss'
 import { Counter } from './components/Counter'
 import { Parent } from './components/propsDrilling/Parent'
 import { CounterSlice } from './components/redux/counterSlice'
 
 import { UseContextApi } from './components/UseContextApi'
+import { SoundFlow } from './components/SoundFlow'
 
 
 function App() {
@@ -20,6 +21,7 @@ const greeting = "Hello, Prop Drilling!";
     </UseContextApi>
     <CounterSlice />
      <Parent greeting={greeting} response={response} />;
+     <SoundFlow />
     </>
   )
 }

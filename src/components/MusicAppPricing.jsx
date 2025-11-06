@@ -58,27 +58,29 @@ export default function MusicAppPricing(){
         <div className="bg-gray-100 ring-1 ring-gray-300 p-8 rounded-xl grid grid-rows-[1fr_auto] gap-6">
           <div>
             <h2 className='text-lg font-semibold text-indigo-600'>Family</h2>
-            <p>$14.99<span>/month</span></p>
-            <p>
+             <p className="text-4xl font-bold text-gray-900">$14.99
+                <span className="text-base font-medium text-gray-500">/month</span></p>
+            <p className="text-gray-600">
               Enjoy all of the features with a plan for up to 6 family members.
             </p>
-            <ul>
+             <ul className="mt-6 space-y-2 text-sm text-gray-700">
               <li>
-                <span>&#10003;</span>All Premium features
+                <span aria-hidden className="text-green-700 mr-2">&#10003;</span>All Premium features
               </li>
               <li>
-                <span>&#10003;</span>Up to 6 accounts
+                <span aria-hidden className="text-green-700 mr-2">&#10003;</span>Up to 6 accounts
               </li>
               <li>
-                <span>&#10003;</span>Individual playlists &
+                <span aria-hidden className="text-green-700 mr-2">&#10003;</span>Individual playlists &
                 libraries
               </li>
               <li>
-                <span>&#10003;</span>Family Mix playlists
+                <span aria-hidden className="text-green-700 mr-2">&#10003;</span>Family Mix playlists
               </li>
             </ul>
           </div>
-          <a href="#">Start Family Plan</a>
+           <a href="#" 
+           className='block rounded-md bg-indigo-600 px-4 py-2 text-center font-semibold text-white hover:bg-indigo-700'>Start Family Plan</a>
         </div>
       </div>
     </>

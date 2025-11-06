@@ -1,16 +1,17 @@
-export default function MusicAppPricing(){
+
+export default function MusicShoppingCard(){
     return <>
      <div id="shopping-cart-container" className='flex flex-col lg:flex-row'>
      <div id="products-container" >
        <div className="card">
          <h2  className="text-sm text-base text-lg text-xl text-2xl ">product name 1</h2>  
-          <div class="quantity">5</div>
+          <div className="quantity">5</div>
        <div className="price">$10</div>
        <button className="remove-button bg-red-300 hover:bg-red-400">Remove</button>
        </div>
        <div className="card">
          <h2 className="text-sm text-base text-lg text-xl text-2xl ">product name 2</h2>
-         <div class="quantity">9</div>
+         <div className="quantity">$9</div>
         <div className="price">$15</div>
    <button className="remove-button bg-red-300 hover:bg-red-400">Remove</button>
        </div>
